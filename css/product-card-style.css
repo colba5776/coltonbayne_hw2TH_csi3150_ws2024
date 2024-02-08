@@ -50,6 +50,8 @@ body {
     align-items: center;
     margin-top: 20px;
     padding-left: 50px;
+    padding: 0 50px;
+    justify-content: space-between;
 }
 
 .available-colors span:first-child {
