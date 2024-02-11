@@ -5,42 +5,45 @@
     <!--Favicon and Website page name-->
     <title>Colton Bayne - Portfolio</title>
     <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <header>
-        <h1>Colton Bayne - Portfolio</h1>
-        <nav>
+        <div class="navbar">
+            <h1>LOGO</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="./html/resume.html">Resume</a></li>
                 <li><a href="./html/funfacts.html">Fun Facts</a></li>
             </ul>
-        </nav>
-        <br>
-        <img src="./assets/img/coltonbayne.png" alt="Colton Bayne" height="200" width="250">
-        <!--Quote-->
-        <blockquote>
-            "You miss a 100% of the shots you don't take."
-            <br>
-            <br>
-            <cite>Wayne Gretzky</cite>
-        </blockquote>
+        </div>
     </header>
 
     <main>
-        <!--About me-->
-        <h2>About Me</h2>
-        <p>
-            My name is Colton Bayne, and I'm in my final semester of getting my degree in Computer Science. My plan is to work
-            in cybersecurity as a red team member, I would mostly be interested in working in working in the Automotive industry
-            but I am open to most industrys as well. Through the classes I have already taken I have had alot of experience
-            programming especially for projects mostly in Java. To learn more about my professional experiences and interesting
-            facts, checkout my <a href="./html/resume.html">resume</a> and
-            <a href="./html/funfacts.html">fun facts</a> pages.
-        </p>
+        <div class="intro-container">
+            <div class="left-side">
+            <h1>Colton Bayne - Portfolio</h1>
+                <p>My name is Colton Bayne, and I'm in my final semester of getting my degree in Computer Science. My plan is to
+                    work in cybersecurity as a red team member, I would mostly be interested in working in working in the Automotive
+                    industry but I am open to most industrys as well. Through the classes I have already taken I have had alot of
+                    experience programming especially for projects mostly in Java. To learn more about my professional experiences
+                    and interesting facts, checkout my <a href="./html/resume.html">resume</a> and
+                    <a href="./html/funfacts.html">fun facts</a> pages.
+                </p>
+            </div>
+            <div class="right-side">
+                <img src="./assets/img/coltonbayne.png" alt="Colton Bayne">
+                <blockquote>
+                    "You miss a 100% of the shots you don't take."
+                    <br>
+                    <br>
+                    <cite>Wayne Gretzky</cite>
+                </blockquote>
+            </div>
+        </div>
         <!--Progress to degree-->
-        <div>
+        <div class="degree-progress">
             <label for="degreeProgress">Progress to degree: 98%</label>
             <progress id="degreeProgress" value="124" max="128">98%</progress>
         </div>
@@ -50,7 +53,7 @@
     <footer>
         <hr>
         <!--Copyright information and Social Media-->
-        <div id="copyrightInfo">
+        <div class="copyrightInfo">
             <h3>&#169; Colton Bayne</h3>
             <a href="mailto:cbayne@oaklnad.edu">cbayne@oakland.edu</a>
             <p>
